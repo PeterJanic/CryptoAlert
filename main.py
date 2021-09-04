@@ -6,54 +6,49 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import sys
+# pip install currencyconverter
+from currency_converter import CurrencyConverter
+from datetime import datetime
+from datetime import date
 
 # SYSTEM VARIABLES
-# TODO: bolo by vhodne nejake premenne ukladat do suboru a nacitavat ich odtial
-#  ak nahodou prerusim script ale ta i tak neviem no jedine ak ich ulozim pred zavretim alebo v aktualnom stave
-#  alebo sa ulozi jeden cas a delta a ak current time bude mensi ako jeden cas + delta ta to zisti (ale to ma cas este)
-delay = 4  # ze sa spusti kazde 10 min ale najprv daj par sekund
+c = CurrencyConverter()
+delay = 60  # repeat timer
 flag_if_run = False
-server = "sk65"
-# zatim dam na pevno lebo je to bugle, mozno ze by pomohlo to dat na zaciatok
 login = "lenka6.v3@gmail.com"
 secret_pass = "noschoolnow"
-# set proper server, units_count and number of harvesting mode unlocked from that server
-units_count = 8
-harvesting_mode = 3
-# user, pass, server...
 driverino = None
-numberOfSrc = 1
+numberOfSrc = 7
 source = ["https://www.coingecko.com/en/coins/cardano/eur",
           "https://coinmarketcap.com/currencies/cardano/",
           "https://www.binance.com/en/trade/ada_Eur",
           "https://markets.businessinsider.com/currencies/ada-eur",
           "https://www.investing.com/crypto/cardano/ada-eur",
-          "https://pro.coinbase.com/trade/ADA-EUR",
-          "https://digitalcoinprice.com/coins/cardano/eur"]
+          "https://digitalcoinprice.com/coins/cardano/eur",
+          "https://ratesviewer.com/chart/ada-eur/year/",
+          "https://www.marketwatch.com/investing/cryptocurrency/adaeur"]
 
 
-# kvoli alternativam bude treba checkovat aj ci je to Eur or USD
 def main_fun(my_driver, num_to_compare):
     my_driver.refresh()
     time.sleep(0.5)
-    # better to use cuz it doesnt w8 for nothing if not needed a zaroven to plati pre vsetky dalsie hladania na drivery
+    # better to use because it doesnt wait and works for every other waiting
     my_driver.implicitly_wait(2)
-    # my_driver.quit()  # TODO: tu je ten breakpoint co treba odjebat - musi nasledovat clenenie
-    # TODO: asi bude treba prirobit alternativy ak mi to kokot zablokuje a potom podla toho na akej alternative sme tak
-    #  podla toho vyberat sposob get-u sumy
-    # btw kava alebo mleko mi skodi
 
-    # result = get_price_by_src_num(my_driver)
-
-    input_el = my_driver.find_elements_by_class_name("priceValue")[0]
-
-    print(float(input_el.text[1:5]))
-    result = float(input_el.text[1:5])
-
+    result = get_price_by_src_num(my_driver)
+    print(result)
     if result < num_to_compare:
-        # pod ma alertnut
-        print("volam cez facebook")
-        call_on_facebook()
+        print("call via Facebook: ", datetime.now())
+        try:
+            time.sleep(1)
+            profile = webdriver.FirefoxProfile()
+            profile.set_preference('permissions.default.microphone', 1)
+            profile.set_preference('permissions.default.camera', 1)
+            driver_fb = webdriver.Firefox(firefox_profile=profile, executable_path=r'C:\geckodriver.exe')
+            call_on_facebook(driver_fb)
+        except:
+            print("SOMETHING WENT WRONG! ", datetime.now())
+            driver_fb.quit()
 
 
 def get_to_harvest(driverino):
@@ -62,11 +57,6 @@ def get_to_harvest(driverino):
     time.sleep(delay)
     if not flag_if_run:
         driver = webdriver.Firefox(executable_path=r"C:\geckodriver.exe")
-        # TODO: este neviem jak ale tu to musi vyberat ine metody ak preodsle nesli aj bola vynimka
-        #  a nasledne predat premennu ze ktora je vybrata a kazda metoda ma inak hladanie sumy nasledne [ALTERNATIVES]:
-        # https://www.coingecko.com/en/coins/cardano/eur
-        # ... aspon 10
-
         driver.get(source[numberOfSrc])
         driver.maximize_window()
     else:
@@ -74,76 +64,79 @@ def get_to_harvest(driverino):
     return driver
 
 
-def call_on_facebook():
-    time.sleep(1)
-
-    profile = webdriver.FirefoxProfile()
-    profile.set_preference('permissions.default.microphone', 1)
-    # profile.set_preference('permissions.default.camera', 1)
-    driver = webdriver.Firefox(firefox_profile=profile, executable_path=r'C:\geckodriver.exe')
-    driver.get("https://www.facebook.com/")
+def call_on_facebook(driver_fb):
+    driver_fb.get("https://www.facebook.com/")
     time.sleep(0.5)
-    driver.maximize_window()
+    driver_fb.maximize_window()
     time.sleep(1.5)
-    driver.execute_script("document.getElementsByClassName('_9o-r')[0].children[1].click();")
-    username = driver.find_element_by_name("email")
+    driver_fb.execute_script("document.getElementsByClassName('_9o-r')[0].children[1].click();")
+    username = driver_fb.find_element_by_name("email")
     username.send_keys(login)
     time.sleep(0.9)
-    password = driver.find_element_by_name("pass")
+    password = driver_fb.find_element_by_name("pass")
     password.send_keys(secret_pass)
     time.sleep(1)
     password.submit()
     time.sleep(10)
-    # tu sa nejako inak preklikat na ucet kt. chcem volat (toto bude treba testovat ci to funguje inac)
-    # driver.get("https://www.facebook.com/peter.janic.9")
-    driver.execute_script("document.getElementsByClassName('oajrlxb2')[11].click()")
+    # test this a lot
+    driver_fb.execute_script("document.getElementsByClassName('oajrlxb2')[11].click()")
     time.sleep(1)
     time.sleep(1)
-    driver.execute_script("document.getElementsByClassName('oajrlxb2')[28].click()")
+    driver_fb.execute_script("document.getElementsByClassName('oajrlxb2')[28].click()")
     time.sleep(1)
-    driver.execute_script("document.getElementsByClassName('oajrlxb2')[49].click()")
-    time.sleep(60)
-    driver.quit()
+    driver_fb.execute_script("document.getElementsByName('actions')[0].children[1].children[0].click()")
+    # some kind of switcher needed here -> ? driver_fb.maximize_window(driver_fb.switch_to.window())
+    time.sleep(30)
+    driver_fb.quit()
 
 
 def get_price_by_src_num(driver):
+    driver.implicitly_wait(2)
     if numberOfSrc == 0:    # https://www.coingecko.com/en/coins/cardano/eur
-        return
+        input_el = driver.find_elements_by_class_name("no-wrap")[0].text
+        result = float(input_el[1:5])
     elif numberOfSrc == 1:  # https://coinmarketcap.com/currencies/cardano/
-        return
+        input_el = driver.find_elements_by_class_name("priceValue")[0]
+        result = float(input_el.text[1:5])
+        result = c.convert(result, 'USD', 'EUR')
     elif numberOfSrc == 2:  # https://www.binance.com/en/trade/ada_Eur
-        return
+        input_el = driver.find_elements_by_class_name("subPrice")[0].text
+        result = float(input_el[1:5])
+        result = c.convert(result, 'USD', 'EUR')
     elif numberOfSrc == 3:  # https://markets.businessinsider.com/currencies/ada-eur
-        return
+        input_el = driver.find_elements_by_class_name("price-section__current-value")[0].text
+        result = float(input_el)
     elif numberOfSrc == 4:  # https://www.investing.com/crypto/cardano/ada-eur
-        return
-    elif numberOfSrc == 5:  # https://pro.coinbase.com/trade/ADA-EUR
-        return
-    elif numberOfSrc == 6:  # https://digitalcoinprice.com/coins/cardano/eur
-        return
+        input_el = driver.find_element_by_id("last_last").text
+        result = float(input_el[0:4])
+    elif numberOfSrc == 5:  # https://digitalcoinprice.com/coins/cardano/eur
+        input_el = driver.find_element_by_id("quote_price").text
+        result = float(input_el[1:5])
+    elif numberOfSrc == 6:  # https://ratesviewer.com/chart/ada-eur/year/
+        input_el = driver.find_elements_by_class_name("value")[0].text
+        result = float(input_el[4:8])
+    elif numberOfSrc == 7:  # https://www.marketwatch.com/investing/cryptocurrency/adaeur
+        input_el = driver.find_elements_by_class_name("value")[6].text
+        result = float(input_el[0:4])
     else:
         return "Something went wrong we dont have right Index!"
 
     return result
 
 
-call_on_facebook()
-
 while 1:
     try:
         driverino = get_to_harvest(driverino)
         flag_if_run = True
-        main_fun(driverino, 2.99)
-        # function_harvesting(my_driver, harvesting_mode, units_count)
+        main_fun(driverino, 2.20)
     except:
         print(sys.exc_info()[0])
-        # ak to zlyha moze rovno nastavit ten prepinac na Flase cize povodny stav a musi vyberat inu metodu getu na sumu
-        # cize iny source
+        # If failed set flag_if_run to False again and pick another method by incrementing counter
+        # so here will set another source
         flag_if_run = False
         numberOfSrc = numberOfSrc + 1
         if numberOfSrc >= len(source):
             numberOfSrc = 0
         driverino.quit()
-        # inac teraz TO raz ide raz nejde lebo raz je true a vypne browser a potom nevie najst a da exception na false a
-        # znova ide ale to sa zmeni len ja uz dalej nerobim zatial
+
 
