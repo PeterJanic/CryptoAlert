@@ -13,16 +13,15 @@ from datetime import date
 
 # SYSTEM VARIABLES
 c = CurrencyConverter()
-delay = 60  # repeat timer
+delay = 600  # repeat timer
 flag_if_run = False
 login = "lenka6.v3@gmail.com"
 secret_pass = "noschoolnow"
 driverino = None
-numberOfSrc = 7
+numberOfSrc = 0
 source = ["https://www.coingecko.com/en/coins/cardano/eur",
           "https://coinmarketcap.com/currencies/cardano/",
           "https://www.binance.com/en/trade/ada_Eur",
-          "https://markets.businessinsider.com/currencies/ada-eur",
           "https://www.investing.com/crypto/cardano/ada-eur",
           "https://digitalcoinprice.com/coins/cardano/eur",
           "https://ratesviewer.com/chart/ada-eur/year/",
@@ -36,7 +35,7 @@ def main_fun(my_driver, num_to_compare):
     my_driver.implicitly_wait(2)
 
     result = get_price_by_src_num(my_driver)
-    print(result)
+    print(result, " ", datetime.now())
     if result < num_to_compare:
         print("call via Facebook: ", datetime.now())
         try:
@@ -103,19 +102,16 @@ def get_price_by_src_num(driver):
         input_el = driver.find_elements_by_class_name("subPrice")[0].text
         result = float(input_el[1:5])
         result = c.convert(result, 'USD', 'EUR')
-    elif numberOfSrc == 3:  # https://markets.businessinsider.com/currencies/ada-eur
-        input_el = driver.find_elements_by_class_name("price-section__current-value")[0].text
-        result = float(input_el)
-    elif numberOfSrc == 4:  # https://www.investing.com/crypto/cardano/ada-eur
+    elif numberOfSrc == 3:  # https://www.investing.com/crypto/cardano/ada-eur
         input_el = driver.find_element_by_id("last_last").text
         result = float(input_el[0:4])
-    elif numberOfSrc == 5:  # https://digitalcoinprice.com/coins/cardano/eur
+    elif numberOfSrc == 4:  # https://digitalcoinprice.com/coins/cardano/eur
         input_el = driver.find_element_by_id("quote_price").text
         result = float(input_el[1:5])
-    elif numberOfSrc == 6:  # https://ratesviewer.com/chart/ada-eur/year/
+    elif numberOfSrc == 5:  # https://ratesviewer.com/chart/ada-eur/year/
         input_el = driver.find_elements_by_class_name("value")[0].text
         result = float(input_el[4:8])
-    elif numberOfSrc == 7:  # https://www.marketwatch.com/investing/cryptocurrency/adaeur
+    elif numberOfSrc == 6:  # https://www.marketwatch.com/investing/cryptocurrency/adaeur
         input_el = driver.find_elements_by_class_name("value")[6].text
         result = float(input_el[0:4])
     else:

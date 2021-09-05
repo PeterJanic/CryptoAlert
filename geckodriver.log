@@ -15249,3 +15249,482 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1630760884071	Marionette	INFO	Listening on port 57557
 1630760884530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630761839849	Marionette	INFO	Stopped listening on port 57557
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630761954816	geckodriver	INFO	Listening on 127.0.0.1:50439
+1630761957894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofile2NACaG"
+1630761958256	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofile2NACaG\\search.json.mozlz4", (void 0)))
+1630761960547	Marionette	INFO	Listening on port 49936
+1630761960583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1630761990376	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630761990982	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630761991351	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630761991531	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+Corrupt JPEG data: premature end of data segment
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630762982417	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+Corrupt JPEG data: premature end of data segment
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630764167634	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630764725917	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630765469669	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+Corrupt JPEG data: premature end of data segment
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630767469571	Marionette	INFO	Stopped listening on port 49936
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630767535487	geckodriver	INFO	Listening on 127.0.0.1:65213
+1630767538531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilePmKDef"
+1630767538906	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilePmKDef\\search.json.mozlz4", (void 0)))
+1630767540973	Marionette	INFO	Listening on port 51734
+1630767541208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1630772086761	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630773567689	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630775356284	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630778121435	Marionette	INFO	Stopped listening on port 51734
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630778187576	geckodriver	INFO	Listening on 127.0.0.1:49978
+1630778190619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilei7HAUQ"
+1630778190993	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilei7HAUQ\\search.json.mozlz4", (void 0)))
+1630778193268	Marionette	INFO	Listening on port 49986
+1630778193301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://bin.bnbstatic.com/static/chunks/9c4096e98c818c9847b8b916a260724e296ad33c.90b44224.js, line 1: InvalidStateError: CanvasRenderingContext2D.drawImage: Passed-in image is "broken"
+JavaScript error: https://bin.bnbstatic.com/static/chunks/9c4096e98c818c9847b8b916a260724e296ad33c.90b44224.js, line 1: InvalidStateError: CanvasRenderingContext2D.drawImage: Passed-in image is "broken"
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 315: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: https://fast.wistia.net/assets/external/E-v1.js, line 2: Error: POST https://pipedream.wistia.com/mput?topic=metrics - Got an unsuccessful status code: 0. 
+1630778518583	Marionette	INFO	Stopped listening on port 49986
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630778579053	geckodriver	INFO	Listening on 127.0.0.1:53482
+1630778582074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilekJ1EHX"
+1630778582475	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilekJ1EHX\\search.json.mozlz4", (void 0)))
+1630778584890	Marionette	INFO	Listening on port 54622
+1630778585282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/portfolio.min.js?v=5e587b3d, line 1: ReferenceError: AjaxLoader is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/Chart/chartiq/polyfills.js, line 1: uncaught exception: [object Object]
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/Chart/chartiq/polyfills.js, line 1: uncaught exception: [object Object]
+1630778601534	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/icon.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/en.png​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012108170213000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://tpc.googlesyndication.com/pagead/images/adchoices/en.png​​​
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/portfolio.min.js?v=5e587b3d, line 1: ReferenceError: AjaxLoader is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/Chart/chartiq/polyfills.js, line 1: uncaught exception: [object Object]
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/Chart/chartiq/polyfills.js, line 1: uncaught exception: [object Object]
+1630778631199	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630778632834	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630778634961	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://s.e-planning.net/esb/4/1/3fb8/69b1486c74a3b7dc/lotame.js, line 7: ReferenceError: _cc15238 is not defined
+1630778635268	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630778636078	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630778638622	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156631&s=&predirect=https%3A%2F%2Fu-ams02.e-planning.net%2Fum%3Fdc%3Da208d9366469aa64%26fi%3D9fcb4da939c73029%26uid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/portfolio.min.js?v=5e587b3d, line 1: ReferenceError: AjaxLoader is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/portfolio.min.js?v=5e587b3d, line 1: ReferenceError: AjaxLoader is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/portfolio.min.js?v=5e587b3d, line 1: ReferenceError: AjaxLoader is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/portfolio.min.js?v=5e587b3d, line 1: ReferenceError: AjaxLoader is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/Content/Scripts/portfolio.min.js?v=5e587b3d, line 1: ReferenceError: AjaxLoader is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 359 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 359 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://markets.businessinsider.com/currencies/ada-eur line 358 > injectedScript, line 2: TypeError: ref is undefined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+1630779282236	Marionette	INFO	Stopped listening on port 54622
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA80006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630779378264	geckodriver	INFO	Listening on 127.0.0.1:54026
+1630779381290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilevEzixc"
+1630779381651	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilevEzixc\\search.json.mozlz4", (void 0)))
+1630779383900	Marionette	INFO	Listening on port 54034
+1630779383997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://widgets.outbrain.com/widgetOBUserSync/obUserSync.html#pid=6406&dmpenabled=false&filterDMP=&csenabled=true&d=&gdpr=1&cmpNeeded=true&gdprVer=2&ccpa=1---&country=SK&obRecsAbtestAndVars=386-2483,902-2790,841-2598,811-2475,909-2803,784-2401,912-2808,947-2926,822-2655,792-2661,859-2649,699-2821,923-2846,927-2858, line 3: TypeError: r is null
+1630779579836	geckodriver	INFO	Listening on 127.0.0.1:57697
+1630779582898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilesqvpQ0"
+1630779583281	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilesqvpQ0\\search.json.mozlz4", (void 0)))
+1630779585259	Marionette	INFO	Listening on port 54876
+1630779585601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630779587000	Marionette	INFO	Stopped listening on port 54876
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1630780303152	geckodriver	INFO	Listening on 127.0.0.1:65289
+1630780306220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofileSyQHYW"
+1630780306605	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofileSyQHYW\\search.json.mozlz4", (void 0)))
+1630780308898	Marionette	INFO	Listening on port 65297
+1630780308921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1630780321933	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630780322897	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630780323216	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630780916489	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630780920722	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1630781524119	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630781524295	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630781524303	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630782776782	Marionette	INFO	Stopped listening on port 65297
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1630783379383	geckodriver	INFO	Listening on 127.0.0.1:55400
+1630783382450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilel9t99G"
+1630783382847	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilel9t99G\\search.json.mozlz4", (void 0)))
+1630783385289	Marionette	INFO	Listening on port 54282
+1630783385665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1630783392545	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1630784000027	Marionette	INFO	Stopped listening on port 54282
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1630784600563	geckodriver	INFO	Listening on 127.0.0.1:57961
+1630784603623	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilefudBfL"
+1630784604000	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilefudBfL\\search.json.mozlz4", (void 0)))
+1630784606230	Marionette	INFO	Listening on port 57969
+1630784606305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1630828246441	Marionette	INFO	Stopped listening on port 57969
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilenIvupj\\search.json.mozlz4", (void 0)))
+1630785220959	Marionette	INFO	Listening on port 63512
+1630785221179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1630785238689	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
+JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
+1630785729561	addons.xpi	ERROR	Failed to download system add-on reset-search-defaults@mozilla.com: Error: Failed downloading via XHR, status: 0, reason: error(resource://gre/modules/addons/ProductAddonChecker.jsm:244:16) JS Stack trace: fail@ProductAddonChecker.jsm:244:16
+1630785729748	addons.xpi	ERROR	Failed to download system add-on addons-search-detection@mozilla.com: Error: Failed downloading via XHR, status: 0, reason: error(resource://gre/modules/addons/ProductAddonChecker.jsm:244:16) JS Stack trace: fail@ProductAddonChecker.jsm:244:16
+JavaScript error: chrome://browser/content/certerror/aboutNetError.js, line 26: ReferenceError: RPMGetInnerMostURI is not defined
+JavaScript error: https://widgets.outbrain.com/widgetOBUserSync/obUserSync.html#pid=6406&dmpenabled=false&filterDMP=&csenabled=true&d=&gdpr=1&cmpNeeded=true&gdprVer=2&ccpa=1---&country=SK&obRecsAbtestAndVars=386-2483,902-2790,841-2598,811-2475,909-2803,784-2396,912-2808,822-2520,792-2426,859-2649,699-2184,955-2953,923-2846,927-2858, line 3: TypeError: r is null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1630828249156	Marionette	INFO	Stopped listening on port 63512
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1630828905882	geckodriver	INFO	Listening on 127.0.0.1:49155
+1630828908949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilevyh8zv"
+1630828909330	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilevyh8zv\\search.json.mozlz4", (void 0)))
+1630828911797	Marionette	INFO	Listening on port 49163
+1630828912155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1630828928240	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630828929003	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.coingecko.com/en/coins/cardano/eur, line 1: ReferenceError: buildAttribution is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+1630828931306	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+1630831350055	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630831352847	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630831355898	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630831968881	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630833184679	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630833781866	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630833786685	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630834391750	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630834391927	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630834392313	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1630834392374	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://gum.criteo.com/sync?c=30&r=2&j=cr_handle_data_a, line 1: SecurityError: The operation is insecure.
+1630834998498	Marionette	INFO	Stopped listening on port 49163
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1630835599140	geckodriver	INFO	Listening on 127.0.0.1:63394
+1630835602219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilevxn23Y"
+1630835602583	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\GAMER\\AppData\\Local\\Temp\\rust_mozprofilevxn23Y\\search.json.mozlz4", (void 0)))
+1630835604864	Marionette	INFO	Listening on port 63402
+1630835604901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1630835612169	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
