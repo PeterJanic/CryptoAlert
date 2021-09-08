@@ -6,22 +6,17 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import sys
-# pip install currencyconverter
-from currency_converter import CurrencyConverter
 from datetime import datetime
 from datetime import date
 
 # SYSTEM VARIABLES
-c = CurrencyConverter()
-delay = 600  # repeat timer
+delay = 1  # repeat timer
 flag_if_run = False
 login = "lenka6.v3@gmail.com"
 secret_pass = "noschoolnow"
 driverino = None
-numberOfSrc = 0
+numberOfSrc = 1
 source = ["https://www.coingecko.com/en/coins/cardano/eur",
-          "https://coinmarketcap.com/currencies/cardano/",
-          "https://www.binance.com/en/trade/ada_Eur",
           "https://www.investing.com/crypto/cardano/ada-eur",
           "https://digitalcoinprice.com/coins/cardano/eur",
           "https://ratesviewer.com/chart/ada-eur/year/",
@@ -76,15 +71,14 @@ def call_on_facebook(driver_fb):
     password.send_keys(secret_pass)
     time.sleep(1)
     password.submit()
-    time.sleep(10)
-    # test this a lot
+    time.sleep(6)
+    # test this a lot ...next line will need refactor as well later
     driver_fb.execute_script("document.getElementsByClassName('oajrlxb2')[11].click()")
     time.sleep(1)
-    time.sleep(1)
-    driver_fb.execute_script("document.getElementsByClassName('oajrlxb2')[28].click()")
+    ts = driver_fb.find_elements_by_css_selector("[data-testid=mwthreadlist-item]")[0]
+    ts.click()  # yes! I'm there
     time.sleep(1)
     driver_fb.execute_script("document.getElementsByName('actions')[0].children[1].children[0].click()")
-    # some kind of switcher needed here -> ? driver_fb.maximize_window(driver_fb.switch_to.window())
     time.sleep(30)
     driver_fb.quit()
 
@@ -94,24 +88,16 @@ def get_price_by_src_num(driver):
     if numberOfSrc == 0:    # https://www.coingecko.com/en/coins/cardano/eur
         input_el = driver.find_elements_by_class_name("no-wrap")[0].text
         result = float(input_el[1:5])
-    elif numberOfSrc == 1:  # https://coinmarketcap.com/currencies/cardano/
-        input_el = driver.find_elements_by_class_name("priceValue")[0]
-        result = float(input_el.text[1:5])
-        result = c.convert(result, 'USD', 'EUR')
-    elif numberOfSrc == 2:  # https://www.binance.com/en/trade/ada_Eur
-        input_el = driver.find_elements_by_class_name("subPrice")[0].text
-        result = float(input_el[1:5])
-        result = c.convert(result, 'USD', 'EUR')
-    elif numberOfSrc == 3:  # https://www.investing.com/crypto/cardano/ada-eur
+    elif numberOfSrc == 1:  # https://www.investing.com/crypto/cardano/ada-eur
         input_el = driver.find_element_by_id("last_last").text
         result = float(input_el[0:4])
-    elif numberOfSrc == 4:  # https://digitalcoinprice.com/coins/cardano/eur
+    elif numberOfSrc == 2:  # https://digitalcoinprice.com/coins/cardano/eur
         input_el = driver.find_element_by_id("quote_price").text
         result = float(input_el[1:5])
-    elif numberOfSrc == 5:  # https://ratesviewer.com/chart/ada-eur/year/
+    elif numberOfSrc == 3:  # https://ratesviewer.com/chart/ada-eur/year/
         input_el = driver.find_elements_by_class_name("value")[0].text
         result = float(input_el[4:8])
-    elif numberOfSrc == 6:  # https://www.marketwatch.com/investing/cryptocurrency/adaeur
+    elif numberOfSrc == 4:  # https://www.marketwatch.com/investing/cryptocurrency/adaeur
         input_el = driver.find_elements_by_class_name("value")[6].text
         result = float(input_el[0:4])
     else:
@@ -134,5 +120,3 @@ while 1:
         if numberOfSrc >= len(source):
             numberOfSrc = 0
         driverino.quit()
-
-
